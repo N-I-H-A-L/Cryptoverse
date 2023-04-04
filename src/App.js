@@ -20,7 +20,7 @@ export default function App() {
 {/* exact keyword says it will open the component inside it if and only if the path is exactly equal to '/' */}
               <Route exact path="/" element={<Homepage />} />
               <Route exact path="/exchanges" element={<Exchanges />} />
-              <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />} />
+              <Route exact path="/cryptocurrencies" element={<Cryptocurrencies/>} />
 
               {/* Colon specifies that the address will be dynamic, e.g. /crypto/123, /crypto/xyz, etc. */}
               <Route exact path="/crypto/:coinId" element={<CryptoDetails />} />
