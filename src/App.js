@@ -4,7 +4,7 @@ import { Layout, Typography, Space } from 'antd';
 
 import './App.css'
 
-import {Navbar, Homepage, Exchanges, Cryptocurrencies, News, CryptoDetails} from './components';
+import {Navbar, Homepage, Cryptocurrencies, News} from './components';
 
 export default function App() {
   return (
@@ -19,8 +19,6 @@ export default function App() {
 {/* exact keyword says it will open the component inside it if and only if the path is exactly equal to '/' */}
               <Route exact path="/" element={<Homepage />} />
               <Route exact path="/cryptocurrencies" element={<Cryptocurrencies/>} />
-
-              {/* Colon specifies that the address will be dynamic, e.g. /crypto/123, /crypto/xyz, etc. */}
               <Route exact path="/news" element={<News />} />
             </Routes> 
           </div>
