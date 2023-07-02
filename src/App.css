@@ -103,6 +103,13 @@ a:hover{
         flex: 1;
     }
 
+    .hamburger-button{
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        right: 15px;
+    }
+
     .main{
         flex: 1;
         margin-top: 90px;
@@ -130,7 +137,10 @@ a:hover{
         font-size: 1.4rem !important;
     }
     .show-more{
-        font-size: 1.3rem !important;
+        font-size: 1.1rem !important;
+    }
+    .nav-menu{
+        display: none;
     }
 }
 
