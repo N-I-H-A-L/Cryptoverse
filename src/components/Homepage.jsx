@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import { useGetCryptosQuery } from '../services/cryptoAPI';
 
-import {Cryptocurrencies, News} from '../components'
+import {Cryptocurrencies, Exchanges, News} from '../components'
 
 const {Title} = Typography;
 

@@ -35,6 +35,7 @@ a:hover{
 .routes{
     padding: 20px;
 }
+
 .nav-container{
     position: fixed;
     left: 0;
@@ -375,4 +376,14 @@ width: 70%;
     flex-direction: column;
     padding: 20px;
     align-items: center;
+}
+
+.exchange-row{
+    height: 50px;
+}
+
+.exchange-logo{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
 }
