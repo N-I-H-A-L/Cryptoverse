@@ -1,6 +1,5 @@
 import React from 'react'
 import { Routes, Route, Link } from "react-router-dom";
-import { Switch } from "react-router";
 import { Layout, Typography, Space } from 'antd';
 
 import './App.css'
@@ -19,11 +18,9 @@ export default function App() {
             <Routes>
 {/* exact keyword says it will open the component inside it if and only if the path is exactly equal to '/' */}
               <Route exact path="/" element={<Homepage />} />
-              <Route exact path="/exchanges" element={<Exchanges />} />
               <Route exact path="/cryptocurrencies" element={<Cryptocurrencies/>} />
 
               {/* Colon specifies that the address will be dynamic, e.g. /crypto/123, /crypto/xyz, etc. */}
-              <Route exact path="/crypto/:coinId" element={<CryptoDetails />} />
               <Route exact path="/news" element={<News />} />
             </Routes> 
           </div>
